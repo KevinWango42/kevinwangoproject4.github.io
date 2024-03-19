@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Typing Game</title>
+    <link rel="icon" type="image/png" href="Logo/Letter A.png">  
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+  <div class="container">
+    <h1>Alphabet Typing Game</h1>
+    <p>Type the alphabet as fast as you can! The timer starts as soon you start typing.</p>
+    <h2 id="currentLetter"></h2>                              <!-- Placeholder for displaying the current letter to type -->
+    <input type="text" id="input" placeholder="Start typing...">  <!-- Input field for the user to type the alphabet -->
+    <button id="resetButton">Reset</button>
+    <h2 id="timer">00.00</h2>
+  </div>
+
+  <div class="congratulations-container">               <!-- Container for the congratulations message -->
+    <div class="congratulations-card">                  <!-- Card containing the congratulations message -->
+      <h1>Congratulations!</h1>
+      <p>Your time is <span id="congratsTime"></span>.</p>      <!-- Placeholder for displaying the completion time -->
+      <button id="closeButton">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
